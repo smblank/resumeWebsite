@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Homepage</title>
+        <title>Mobile Site</title>
+
+        <script>
+            if (/Mobi|Android/i.test(navigator.userAgent)) {
+                window.location.href = 'mobile.html';
+            }
+        </script>
 
         <style>
             .pageWrapper {
@@ -112,7 +118,7 @@
                 <div class="intro">
                     <div>
                         <p>Hello! I'm Sarah Blankenship and I'm a recently graduated software engineer. I graduated from Clemson University with a Master's in Computer Science.</p>
-                        <p>While in university I worked as a research assistant creating an educational web application that logged the progress of 112 users and completing experiments evaluating its effectiveness in teaching symbolic reasoning skills.</p>
+                        <p>While in university I worked as a research assistant creating an educational web application and completeing experiments evaluating its effectiveness in teaching symbolic reasoning skills.</p>
                     </div>
 
                     <div class="info">
@@ -239,24 +245,24 @@
                 <h2>Graduate Research Assistant</h2>
                 <p style="margin-left: 3%">Clemson Univeristy, Aug. 2021 - Sept. 2022</p>
                 <ul>
-					<li>Designed & conducted two cross-university experiments in computer science education with 112 students</li>
-					<li>Programmed and deployed an educational web app using Python, Django, and JavaScript that taught 112 students formal verification through a code editor that communicated to a custom compiler and logged student responses for analysis</li>
-					<li>Performed statistical analysis of student scores and answers giving insight on how well students learned and used in a report published by the university and a second report published by ACM in ITiCSE ‘22</li>
+                    <li>Designed & conducted two experiments in computer science education</li>
+                    <li>Developed and deployed an education web app</li>
+                    <li>Performed statistical analysis of student data for use in report of experiments</li>
                 </ul>
 
                 <h2>Undergraduate Research Assistant</h2>
                 <p style="margin-left: 3%">Clemson Univeristy, May 2020 - Aug. 2021</p>
                 <ul>
-					<li>Programmed a conceptual nested list program based on mathematical tree theory and its corresponding unit tests in Java</li>
-					<li>Contributed to writing three papers published by the ACM</li>
+                    <li>Executed a conceptual program from previous research</li>
+                    <li>Programmed several projects to assist with ongoing research</li>
+                    <li>Assisted in writing research reports</li>
                 </ul>
 
                 <h2>Undergraduate Teaching Assistant</h2>
                 <p style="margin-left: 3%">Clemson Univeristy, Aug. 2019 - Dec. 2020</p>
                 <ul>
-					<li>Assisted students in mastering C programming through projects and tutoring</li>
-					<li>Tutored students in foundation programming concepts to be demonstrated in future projects</li>
-					<li>Collaborated with students to test and debug their projects through both tutoring and pair programming</li>
+                    <li>Assisted in teaching students C and foundational concepts of programming</li>
+                    <li>Assisted students in testing and debugging projects</li>
                 </ul>
             </div>
         </div>
